@@ -125,7 +125,7 @@ int main(int argc, char** argv){
 		if(decision == 3){
 			maxProfit = dynamic(sack, numItems, maxCapacity);
 		}
-		output << "Dynamic Programming: " << numItems << " " << maxProfit << " " << ((float(clock() - BEGIN_TIME)/CLOCKS_PER_SEC) * 1000) << endl;
+		output << "Dynamic Programming: " << numItems << " " << maxProfit << " " << ((float(clock() - BEGIN_TIME)/CLOCKS_PER_SEC)) << endl;
 	}
 	input.close();
 	output.close();
